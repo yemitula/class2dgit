@@ -1,0 +1,66 @@
+Mini School Management System
+
+Requirements (what the client wants)
+Administrative Portal for Sec School
+Password Protected
+Store Student Information
+Add/Edit/Delete Students
+Assign Students to Classes
+Specify Subjects for each student
+
+Specifications (what developer needs to build)
+Login/Logout
+Students
+	List of Students
+	Student Details
+	Add Student
+	Edit Student
+	Delete Student
+Classes
+	List of Classes
+	Add/Edit/Delete Class
+Subjects
+	List of Subjects
+	Add/Edit/Delete Subject
+Specify Subjects (part of Add/Edit students)
+Assign Class (part of Add/Edit students)
+
+Database Structure
+admins
+	admin id
+	username
+	password
+	name
+	
+students
+	student id
+	admission number
+	firstname
+	surname
+	middlename
+	sex
+	dob
+	religion
+	class id
+	email (optional)
+	phone (optional)
+	address
+	parent's name
+	parent's phone
+	parent's email
+	
+classes
+	class id
+	class level
+	class name
+	
+subjects
+	subject id
+	subject name
+	
+student-subjects
+	id
+	student id
+	subject id
+	
+	

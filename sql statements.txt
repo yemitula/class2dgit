@@ -1,0 +1,9 @@
+SELECT CONCAT(st_firstname, " ", st_surname) AS "Student Name" FROM students
+WHERE st_sex = 'male' OR st_religion = 'Islam'
+ORDER BY st_dob DESC
+LIMIT 0,2
+
+UPDATE students SET st_firstname = 'Adeyemi', st_religion = 'Christianity'
+WHERE st_id = '2'
+
+DELETE FROM students WHERE st_id='3'
